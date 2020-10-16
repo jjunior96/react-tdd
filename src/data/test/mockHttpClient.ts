@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-types */
 import {
   HttpPostClient,
   HttpPostParams
@@ -6,9 +7,11 @@ import {
 // Test Mock
 export class HttpPostClientSpy implements HttpPostClient {
   url?: string;
+  body?: object;
 
   async post(params: HttpPostParams): Promise<void> {
     this.url = params.url;
+    this.body = params.body;
 
     return Promise.resolve();
   }
