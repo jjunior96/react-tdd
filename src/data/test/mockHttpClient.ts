@@ -2,7 +2,7 @@
 import {
   HttpPostClient,
   HttpPostParams
-} from '../protocols/http/httpPostClient';
+} from '@/data/protocols/http/httpPostClient';
 
 // Test Mock
 export class HttpPostClientSpy implements HttpPostClient {

@@ -1,5 +1,5 @@
-import { HttpPostClient } from '../../protocols/http/httpPostClient';
-import { AuthenticationParams } from '../../../domain/usecases/authentication';
+import { HttpPostClient } from '@/data/protocols/http/httpPostClient';
+import { AuthenticationParams } from '@/domain/usecases/authentication';
 
 export class RemoteAuthentication {
   constructor(
@@ -12,5 +12,14 @@ export class RemoteAuthentication {
       url: this.url,
       body: params
     });
+
+    // switch (httpResponse.statusCode) {
+    //   case HttpStatusCode.ok:
+    //     break;
+    //   case HttpStatusCode.unathorized:
+    //     throw new Inval();
+    //   default:
+    //     break;
+    // }
   }
 }
