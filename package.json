@@ -1,5 +1,6 @@
 {
   "name": "starting-nextjs",
+  "author": "Junior Alves <jjalves96e@gmail.com>",
   "version": "0.1.0",
   "private": true,
   "scripts": {
