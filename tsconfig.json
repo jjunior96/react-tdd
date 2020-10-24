@@ -1,6 +1,7 @@
 {
   "compilerOptions": {
     "rootDir": "src",
+    "author": "Junior Alves <jjalves96@gmail.com>",
     "baseUrl": "src",
     "paths": {
       "@/*": ["*"]
