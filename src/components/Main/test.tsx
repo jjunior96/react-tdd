@@ -7,7 +7,7 @@ describe('<Main />', () => {
     const { container } = render(<Main />);
 
     expect(
-      screen.getByRole('heading', { name: /react com TDD/i })
+      screen.getByRole('heading', { name: /react TDD/i })
     ).toBeInTheDocument();
 
     // Snapshot
