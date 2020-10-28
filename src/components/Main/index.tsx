@@ -1,6 +1,6 @@
 const Main = () => (
   <main>
-    <h1>React com TDD</h1>
+    <h1>React TDD</h1>
   </main>
 );
 
